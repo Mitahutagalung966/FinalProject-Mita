@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-laman {
+  min-height: 10vh;
+  background-image: url(../images/kota.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-style {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: azure;
+  border: 2px;
+  border-color: black;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 15px 70px;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  color: #c0cee7;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px 10px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.nav-item {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  transform-origin: 30 30;
+}
+
+.nav-item:hover {
+  background-color: #e2edf2;
+  border-radius: 5px;
+}
+
+.Hero {
+  background-color: rgba(17, 39, 104, 0.3);
+  color: white;
+  font-weight: bold;
+  align-items: center top;
+  text-align: justify;
+}
+
+.about {
+  padding: 10rem 7% 1.4rem;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 65%;
+  }
+}
