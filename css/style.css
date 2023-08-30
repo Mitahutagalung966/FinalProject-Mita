@@ -6,7 +6,7 @@
 
 .bg-laman {
   min-height: 100vh;
-  background-image: url(../images/kota.jpg);
+  background-image: url(../images/bacground.png);
   background-position: center;
   background-repeat: repeat;
 }
@@ -55,15 +55,15 @@
 
 .Hero {
   min-height: 100vh;
-  background-image: url(../images/me.webp);
   background-position: center;
   background-repeat: repeat;
-  background-color: rgba(17, 39, 104, 0.3);
+  background-color: rgba(2, 2, 2, 0.29);
   color: rgb(0, 0, 0);
   font-weight: bold;
   align-items: center;
   text-align: justify;
   padding: 70px 70px;
+  font-size: 30px;
 }
 .img {
   width: 350px;
@@ -72,6 +72,23 @@
   border-style: solid;
   border-radius: 50%;
   border-color: rgb(211, 177, 66);
+}
+.home {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px 1.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 1370px 700px;
+  font-size: 30px;
+}
+.home div {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  height: 100px;
+  width: 100px;
 }
 .about {
   min-height: 100vh;
@@ -84,25 +101,24 @@
   background-size: 1370px 700px;
   font-size: 30px;
 }
+
 .Experiences {
   min-height: 100vh;
-  background-image: url(../images/experience.jpg);
   background-position: center;
-  background-repeat: repeat;
+  background-color: rgba(2, 2, 2, 0.511);
+  background-repeat: no-repeat;
   padding: 90px 1.5rem;
   font-size: 30px;
   font-weight: bold;
   align-items: center;
-  color: rgb(10, 10, 10);
-  text-shadow: 2px 2px 2px rgb(255, 255, 255);
-
+  color: rgba(255, 255, 255, 0.644);
+  text-shadow: 2px 2px 2px rgba(4, 4, 4, 0.518);
   background-size: 1370px 700px;
 }
 .Education {
   min-height: 100vh;
-  background-image: url(../images/education.jpg);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   padding: 90px 1.5rem;
   font-size: 30px;
   font-weight: bold;
@@ -113,45 +129,47 @@
 }
 .Skills {
   min-height: 100vh;
-  background-image: url(../images/skill.jpg);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   padding: 90px 1.5rem;
   font-size: 30px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   text-shadow: 3px 3px 3px rgb(255, 254, 254);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(2, 2, 2, 0.603);
   background-size: 1370px 700px;
 }
 .Interests {
   min-height: 100vh;
-  background-image: url(../images/interests..jpg);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   padding: 90px 1.5rem;
   font-size: 30px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 2px white;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(2, 2, 2, 0.457);
   background-size: 1370px 700px;
 }
 .Award {
   min-height: 100vh;
-  background-image: url(../images/award.webp);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   padding: 90px 1.5rem;
   font-size: 30px;
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(2, 2, 2, 0.687);
   background-size: 1370px 700px;
 }
 @media (max-width: 760px) {
   html {
-    font-size: 65%;
+    background-size: 720px 1280px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    background-size: 480px 800px;
   }
 }
